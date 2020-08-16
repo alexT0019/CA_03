@@ -104,7 +104,7 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 - [ ] Exercise E: Maya's Weekly Articles
 
-- [ ] Exercise F: Fizzbuzz
+- [ ] Exercise F: Occurrence within a string
 
 - [ ] Extra: Finish implementing the calculator function.
 
