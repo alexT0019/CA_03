@@ -2,7 +2,7 @@ div {
   height: 100px;
   width: 100px;
 }
-
+/* The float property specifies how an element should float. */
 .blue {
   background-color: blue;
   float: left;

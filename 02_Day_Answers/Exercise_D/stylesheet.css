@@ -1,3 +1,6 @@
+/* Justify content aligns things horizontally */
+/* Align items aligns things vertically */
+
 body {
   padding: 0;
   margin: 0;
@@ -32,6 +35,7 @@ header img {
   position: absolute;
 }
 
+/* Z-index is if things overlap each other */
 .heading {
   z-index: 5;
   font-family: sans-serif;
