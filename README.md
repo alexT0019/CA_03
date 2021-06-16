@@ -1,5 +1,7 @@
 # Full Stack Software Engineering: Web Development Day 3 :rocket:
 
+The exercise repos come with come boilerplate code, if you're confident and do not wish to follow these guidelines feel free to remove them!
+
 ### Main Topics :zap:
 
 - Bootstrap Components
@@ -88,7 +90,7 @@ Place this link tag as well as the scripts in the correct places within your ind
 
 ```
 
-- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website. 
+- [ ] Exercise B: Flowershop III, using the bootstrap column system OR finish all the grids on each of your web page, and add at least two widgets to your website.
 
 * [ ] The four logos at the bottom should collapse to one vertical line on mobile site. (You can use the Chrome Toggle Device Toolbar feature to test for the mobile responsiveness of your website.)
 * [ ] The four logos at the bottom should spread to one horizontal line on a large screen.
