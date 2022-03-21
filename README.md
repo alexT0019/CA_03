@@ -10,10 +10,10 @@ The exercise repos come with come boilerplate code, if you're confident and do n
 ### Directions :flashlight:
 
 - Go to the LMS and follow the exercises:
-  [Day 3](https://learn.xccelerate.co/unit/view/id:6018)
-  [Day 3](https://learn.xccelerate.co/unit/view/id:6019)
-  [Day 3](https://learn.xccelerate.co/unit/view/id:6020)
-  [Day 3](https://learn.xccelerate.co/unit/view/id:6021)
+  [Introduction to Bootstrap](https://learn.xccelerate.co/unit/view/id:6018)
+  [Bootstrap Grid/ Columns](https://learn.xccelerate.co/unit/view/id:6019)
+  [Common Bootstrap Widets](https://learn.xccelerate.co/unit/view/id:6020)
+  [Website Structure](https://learn.xccelerate.co/unit/view/id:6021)
 
 
 ### Explore 
