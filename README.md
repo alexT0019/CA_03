@@ -1,16 +1,24 @@
-# Full Stack Software Engineering: Web Development Day 3 :rocket:
+# Christian Action :rocket:
 
 The exercise repos come with come boilerplate code, if you're confident and do not wish to follow these guidelines feel free to remove them!
 
 ### Main Topics :zap:
 
 - Bootstrap Components
-- Javascript Functions
+- Bootstrap Practice
 
 ### Directions :flashlight:
 
 - Go to the LMS and follow the exercises:
-  [Day 3](https://xccelerate.talentlms.com/unit/view/id:2573)
+  [Day 3](https://learn.xccelerate.co/unit/view/id:6018)
+  [Day 3](https://learn.xccelerate.co/unit/view/id:6019)
+  [Day 3](https://learn.xccelerate.co/unit/view/id:6020)
+  [Day 3](https://learn.xccelerate.co/unit/view/id:6021)
+
+
+### Explore 
+- Open the examples folder to see how to implement Bootstrap style and components 
+
 
 ### How it works :open_book:
 
@@ -77,19 +85,10 @@ Place this link tag as well as the scripts in the correct places within your ind
 * [ ] The four logos at the bottom should spread to one horizontal line on a large screen.
 * [ ] The four logos should remain in two columns on a medium screen.
 
-- [ ] Exercise C: Loop
+- [ ] Exercise C: Create a clone of this website: http://www.dagusa.com/ AND implement two, animate.css widgets, wow.js, font awesome, smooth scroll and a form on your page
 
-- [ ] Exercise D: Multiply Number
 
 - [ ] Finish the 'What is one thing that I learned from doing this project?' in the readme
-
-## Bonus Exercises
-
-- [ ] Exercise E: Maya's Weekly Articles
-
-- [ ] Exercise F: Occurrence within a string
-
-- [ ] Extra: Finish implementing the calculator function.
 
 ### Tips :tipping_hand_woman:
 
