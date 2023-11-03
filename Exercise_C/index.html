@@ -17,6 +17,27 @@
 
       Refer to the Practice directory
     -->
+  
+  <!--Animate CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!--WOW JS-->
+    <script src="js/wow.min.js"></script>
+    <script>
+  new WOW().init();
+  </script>
+  <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Custom CSS-->
+    <link rel="stylesheet" href="/CA_03/Exercise_C/assets/css/style.css">
+  <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/37df41e096.js" crossorigin="anonymous"></script>
+  <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nanum+Myeongjo&display=swap" rel="stylesheet"> 
   </head>
 
   <!-- Nav bar setup -->
@@ -25,13 +46,132 @@
     <!-- data-spy="scroll" data-target=".navbar" data-offset="50" -->
     <!--Allows us to track the progress of the scroll -->
     <!-- Nav bar items -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark justify-content-between navbar-fixed-top">
+        <a class="navbar-brand" href="#">THE ONLY BOOTSTRAP PAGE</a>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOUR ICONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BULLSHIT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CALL ME</a>
+            </li>
+          </ul>
+      </nav>
 
     <!-- Can use Jumbotron -->
+    <div class="jumbotron">
+      <h1>HEY LOOK, IT'S EVERY BOOTSTRAP WEBSITE EVER</h1>
+      <hr>
+      <p>Take a look around at the same fucking bootstrap page you've seen ten million times before! Featuring all the same things as those pages!</p>
+      <button class="btnScroll">THIS BUTTON MAKES THE PAGE SCROLL</button>
+    </div>
+  </div>
+
     <!-- Second Section -->
+    <section class="about">
+      <h3>Want to make an original website yourself?</h3>
+      <hr class="hrWhite">
+      <p>Forget that! Who would ever want to put in all of that effort for a website? Just open up your web browser and type "bootstrap template" into your favorite search engine, like Yahoo! or Bing, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick this same exact template from the first result on google, edit a few lines, and you're on your way! No one will notice!</p>
+      <button class="btnWhite">GOOGLE THAT SHIT</button>
+    </section>
 
     <!-- Four icons -->
+    <section class="fourIcons">
+      <h3>So Fucking Creative</h3>
+      <hr class="hr2">
+      <div class="row fourIconsContainer">
+        <!--card1-->
+        <div class="col-3">
+          <div class="iconCard">
+            <i class="fa-solid fa-earth-americas fa-2xl" style="color: #ee6431;"></i>
+            <h4 class="iconCardTitle">This Fucking Template</h4>
+            <p class="cardText">Guaranteed to use the same fucking template that every other bootstrap website uses, downloaded straight from The Web™</p>
+          </div>
+        </div>
+        <!--card2-->
+        <div class="col-3">
+          <div class="iconCard">
+            <i class="fa-solid fa-paper-plane fa-2xl" style="color: #ee6431;"></i>
+            <h4 class="iconCardTitle">This Set of Four Icons</h4>
+            <p class="cardText">Look at this cool set of four icons describing different things about us! We use four, because it's the default.</p>
+          </div>
+        </div>
+        <!--card3-->
+        <div class="col-3">
+          <div class="iconCard">
+            <i class="fa-solid fa-thumbs-up fa-2xl" style="color: #ee6431;"></i>
+            <h4 class="iconCardTitle">Lots of effort</h4>
+            <p class="cardText">We even changed some of the icons! We take the extra effort to make our designs truly original.</p>
+          </div>
+        </div>
+        <!--card4-->
+        <div class="col-3">
+          <div class="iconCard">
+            <i class="fa-solid fa-heart fa-2xl" style="color: #ee6431;"></i>
+            <h4 class="iconCardTitle">Made with Love</h4>
+            <p class="cardText">Because nothing says hard work and talent like editing a few lines of text.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <!-- Four pictures with overlay etc -->
+    <section class="bullshit row">
+      <!--image1-->
+      <div class="col-3">
+        <img class="images" src="/CA_03/Exercise_C/assets/images/1.jpg" alt="image1">
+        <div class="overlay">
+          <div class="overlayTextTitle">ONE THING</div>
+          <div class="overlayText">Look</div>
+        </div>
+      </div>
+      <!--image2-->
+      <div class="col-3">
+        <img class="images" src="/CA_03/Exercise_C/assets/images/2.jpg" alt="image2">
+      </div>
+      <!--image3-->
+      <div class="col-3">
+        <img class="images" src="/CA_03/Exercise_C/assets/images/3.jpg" alt="image3">
+      </div>
+      <!--image4-->
+      <div class="col-3">
+        <img class="images" src="/CA_03/Exercise_C/assets/images/4.jpg" alt="image4">
+      </div>
+      <div class="bullshitContainer">
+        <h3>Seriously, It's This Fucking Template !</h3>
+        <button class="btnWhite">THAT'S AMAZING!</button>
+      </div>
+    </section>
+
     <!-- contact me container -->
+    <section class="callMe">
+      <div class="callMeContainer">
+        <h3>My Contact Information</h3>
+        <hr>
+        <p>Here's my phone number and email address, because hey that's part of the template and why would you not include that on your webpage? You'd be a fool not to! I can't wait for all the job offers to come pouring in from all the companies wanting my insane website design skills.</p>
+        <p>Honestly this template does look really nice, though.</p>
+        <div class="contactInfo row">
+          <div class="col-6">
+            <i class="fa-solid fa-phone fa-2xl" style="color: black;"></i>
+            <p class="contactInfoText">+1-608-317-1888</p>
+          </div>
+          <div class="col-6">
+            <i class="fa-regular fa-envelope fa-2xl" style="color: black;"></i>
+            <a class="contactInfoText" href="mailto:holy@shit.com">
+              <p class="mail contactInfoText">holy@shit.com</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- All scripts we need jquery, bootstrap, smooth scroll, local script -->
 
@@ -41,5 +181,10 @@
       If you do not use CSS to do smooth scroll then... You need the CDN for Smooth Scroll
       Your custom JavaScript
      -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   </body>
 </html>

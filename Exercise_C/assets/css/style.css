@@ -1,3 +1,178 @@
 /* 
 Add in your custom style such that you can develop the wonderful website within the exercise. 
 */
+.header {
+    background-image: url(/CA_03/Exercise_C/assets/images/header.jpg);
+    background-position: center;
+    background-size: vh;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: 0.5px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+    padding: 20%;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 16px;
+}
+
+hr {
+    border-top: 3px solid orangered;
+    width: 50px;
+    margin-left: 48%;
+    opacity: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnScroll {
+    background-color: rgb(238, 100, 49);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    border: none;
+}
+
+/*Section 2*/
+.about {
+    background-color: rgb(238, 100, 49);
+    text-align: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
+
+.hrWhite {
+    border-top: 3px solid white;
+    width: 50px;
+    margin-left: 48%;
+    opacity: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btnWhite {
+    background-color: white;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+}
+
+/*fourIcons*/
+.fourIcons {
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    color: black;
+}
+
+.hr2 {
+    border-top: 3px solid orangered;
+    width: 50px;
+    margin-left: 48%;
+    opacity: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.iconCardTitle {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.cardText {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 550;
+    color: rgb(99, 99, 99);
+}
+
+/*bullshit*/
+.bullshit {
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    color: white;
+}
+
+.images {
+    width: auto;
+}
+
+.overlay {
+    transition: .5s ease;
+    background-color: rgb(238, 100, 49);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.images:hover .overlay {
+    opacity: 1;
+}
+
+.bullshitContainer {
+    margin-bottom: 30px;
+}
+
+/*callMe*/
+.callMe {
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: black;
+}
+
+.contactInfo {
+    margin-top: 20px;
+}
+
+.mail {
+    color:  rgb(238, 100, 49);
+}
+
+.contactInfoText {
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
