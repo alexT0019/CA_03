@@ -192,3 +192,13 @@ hr {
     font-weight: bold;
     font-style: normal;
 }
+
+/*form*/
+.form {
+    background-color: rgb(238, 100, 49);
+    text-align: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
