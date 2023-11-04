@@ -1,6 +1,10 @@
 /* 
 Add in your custom style such that you can develop the wonderful website within the exercise. 
 */
+html {
+    scroll-behavior:smooth;
+}
+
 .header {
     background-image: url(/CA_03/Exercise_C/assets/images/header.jpg);
     background-position: center;
@@ -110,6 +114,18 @@ hr {
     opacity: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.icon2 {
+    --animate-delay: 1s;
+}
+
+.icon3 {
+    --animate-delay: 2s;
+}
+
+.icon4 {
+    --animate-delay: 3s;
 }
 
 .iconCardTitle {
