@@ -21,9 +21,15 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .jumbotron {
     padding: 20%;
     padding-top: 15%;
+    padding-left: 15%;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -53,6 +59,8 @@ hr {
     background-color: rgb(238, 100, 49);
     color: white;
     font-family: 'Lato', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 13px;
     padding-left: 20px;
     padding-right: 20px;
@@ -147,11 +155,22 @@ hr {
     color: white;
 }
 
+.imagesContainer {
+    position: relative;
+
+}
+
 .images {
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     transition: .5s ease;
     background-color: rgb(238, 100, 49);
     height: 100%;
@@ -159,11 +178,36 @@ hr {
     opacity: 0;
 }
 
-.images:hover .overlay {
+.imagesContainer:hover .overlay {
     opacity: 1;
 }
 
+.overlayTextTitle {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlayText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .bullshitContainer {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -202,3 +246,74 @@ hr {
     padding-right: 20%;
     color: white;
 }
+
+.submit {
+    margin-top: 10px;
+}
+
+/*responsive web design*/
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .btnScroll {
+        margin: -25px;
+        margin-top: 25px;
+    }
+
+    .about {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+
+    .callMe {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    hr {
+        margin-left: 43%;
+    }
+    
+    .jumbotron {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: -50px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .about {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .hrWhite {
+        margin-left: 45%;
+    }
+
+    .hr2 {
+        margin-left: 42%;
+    }
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav .nav-item {
+    display: block;
+  }

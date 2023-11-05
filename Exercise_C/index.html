@@ -24,7 +24,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <!--WOW JS-->
-    <script src="js/wow.min.js"></script>
+    <script src="/CA_03/Exercise_C/assets/js/wow.min.js"></script>
     <script>
   new WOW().init();
   </script>
@@ -42,41 +42,49 @@
 
   <!-- Nav bar setup -->
 
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- data-spy="scroll" data-target=".navbar" data-offset="50" -->
     <!--Allows us to track the progress of the scroll -->
     <!-- Nav bar items -->
     <section id="section1">
       <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark justify-content-between navbar-fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top justify-content-between topnav">
           <a class="navbar-brand" href="#section1">THE ONLY BOOTSTRAP PAGE</a>
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#section2">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section3">FOUR ICONS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section4">BULLSHIT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section5">CALL ME</a>
-              </li>
-            </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <span class="navbar-toggler-icon"></span>
+            </a>
+          </button>
+          
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+              <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#section2">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section3">FOUR ICONS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section4">BULLSHIT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section5">CALL ME</a>
+                </li>
+              </ul>
+          </div>
         </nav>
+        
+        <!-- Can use Jumbotron -->
+        <div class="jumbotron">
+          <h1>HEY LOOK, IT'S EVERY BOOTSTRAP WEBSITE EVER</h1>
+          <hr>
+          <p>Take a look around at the same fucking bootstrap page you've seen ten million times before! Featuring all the same things as those pages!</p>
+          <a href="#section2">
+            <button class="btnScroll">THIS BUTTON MAKES THE PAGE SCROLL</button>
+          </a>
+        </div>
+      </div>
     </section>
-
-    <!-- Can use Jumbotron -->
-    <div class="jumbotron">
-      <h1>HEY LOOK, IT'S EVERY BOOTSTRAP WEBSITE EVER</h1>
-      <hr>
-      <p>Take a look around at the same fucking bootstrap page you've seen ten million times before! Featuring all the same things as those pages!</p>
-      <a href="#section2">
-        <button class="btnScroll">THIS BUTTON MAKES THE PAGE SCROLL</button>
-      </a>
-    </div>
-  </div>
 
     <!-- Second Section -->
     <section class="about" id="section2">
@@ -94,7 +102,7 @@
       <hr class="hr2">
       <div class="row fourIconsContainer">
         <!--card1-->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="iconCard">
             <i class="fa-solid fa-earth-americas fa-2xl wow animate__animated animate__bounceIn icon1" style="color: #ee6431;"></i>
             <h4 class="iconCardTitle">This Fucking Template</h4>
@@ -102,7 +110,7 @@
           </div>
         </div>
         <!--card2-->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="iconCard">
             <i class="fa-solid fa-paper-plane fa-2xl wow animate__animated animate__bounceIn icon2" style="color: #ee6431;"></i>
             <h4 class="iconCardTitle">This Set of Four Icons</h4>
@@ -110,7 +118,7 @@
           </div>
         </div>
         <!--card3-->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="iconCard">
             <i class="fa-solid fa-thumbs-up fa-2xl wow animate__animated animate__bounceIn icon3" style="color: #ee6431;"></i>
             <h4 class="iconCardTitle">Lots of effort</h4>
@@ -118,7 +126,7 @@
           </div>
         </div>
         <!--card4-->
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="iconCard">
             <i class="fa-solid fa-heart fa-2xl wow animate__animated animate__bounceIn icon4" style="color: #ee6431;"></i>
             <h4 class="iconCardTitle">Made with Love</h4>
@@ -132,7 +140,7 @@
     <!-- Four pictures with overlay etc -->
     <section class="bullshit row" id="section4">
       <!--image1-->
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-12 imagesContainer">
         <img class="images" src="/CA_03/Exercise_C/assets/images/1.jpg" alt="image1">
         <div class="overlay">
           <div class="overlayTextTitle">ONE THING</div>
@@ -140,22 +148,36 @@
         </div>
       </div>
       <!--image2-->
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-12 imagesContainer">
         <img class="images" src="/CA_03/Exercise_C/assets/images/2.jpg" alt="image2">
+        <div class="overlay">
+          <div class="overlayTextTitle">TWO THING</div>
+          <div class="overlayText">At</div>
+        </div>
       </div>
       <!--image3-->
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-12 imagesContainer">
         <img class="images" src="/CA_03/Exercise_C/assets/images/3.jpg" alt="image3">
+        <div class="overlay">
+          <div class="overlayTextTitle">THREE THING</div>
+          <div class="overlayText">This</div>
+        </div>
       </div>
       <!--image4-->
-      <div class="col-3">
+      <div class="col-lg-3 col-md-6 col-sm-12 imagesContainer">
         <img class="images" src="/CA_03/Exercise_C/assets/images/4.jpg" alt="image4">
+        <div class="overlay">
+          <div class="overlayTextTitle">FOUR THING</div>
+          <div class="overlayText">Bullshit</div>
+        </div>
       </div>
+
       <div class="bullshitContainer">
         <h3>Seriously, It's This Fucking Template !</h3>
         <a href="#section1">
-          <button class="btnWhite">THAT'S AMAZING!</button>
+          <button class="btnWhite wow animate__animated animate__tada">THAT'S AMAZING!</button>
         </a>
+      
       </div>
     </section>
 
@@ -167,11 +189,11 @@
         <p>Here's my phone number and email address, because hey that's part of the template and why would you not include that on your webpage? You'd be a fool not to! I can't wait for all the job offers to come pouring in from all the companies wanting my insane website design skills.</p>
         <p>Honestly this template does look really nice, though.</p>
         <div class="contactInfo row">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-12">
             <i class="fa-solid fa-phone fa-2xl" style="color: black;"></i>
             <p class="contactInfoText">+1-608-317-1888</p>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 col-md-12">
             <i class="fa-regular fa-envelope fa-2xl" style="color: black;"></i>
             <a class="contactInfoText" href="mailto:holy@shit.com">
               <p class="mail contactInfoText">holy@shit.com</p>
@@ -194,7 +216,7 @@
           <label for="exampleFormControlTextarea1" class="form-label">Tell us anything</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
       </form>
     </section>
 
@@ -212,5 +234,6 @@
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
   
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+     <script src="/CA_03/Exercise_C/assets/js/script.js"></script>
   </body>
 </html>
